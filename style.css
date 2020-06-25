@@ -553,12 +553,22 @@ transform: translate(-60%,-50%);
     font-family: 'Raleway', sans-serif;
     line-height: 1.4;
     color: #ccc;
-    background: #333;
-    background-size: cover;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     height: 100vh;
     overflow-x: hidden;
     width: 100%;
     background-attachment: fixed;
+}
+.header{
+    width: 100%;
+    display: flex;
+	min-height: 100vh;
+	justify-content: center;
+    align-items: center;
+    
 }
     .image{
         position: absolute;
@@ -585,8 +595,11 @@ transform: translate(-60%,-50%);
             font-size: 14px;
         }
         .about-me{
-         border-bottom:none;
-         }
+    height: 100vh;
+    width: 100%;
+    margin-top: 120px;
+   
+}
         .about-img img{
             height: 200px;
             border-radius: 2px;
@@ -610,7 +623,7 @@ transform: translate(-60%,-50%);
         }
         .social-media{
             position: absolute;
-            top: 300%;
+            top: 400px;
             right: 30%;
             
         
@@ -677,8 +690,10 @@ transform: translate(-60%,-50%);
     z-index: 10000;
 }
 .experience{
-  margin-top: 200px;
-border-top:none;
+    margin-top: 200px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
 }
 .jobs::before{
    display: none;
