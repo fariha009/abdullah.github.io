@@ -549,6 +549,17 @@ transform: translate(-60%,-50%);
 
 
 @media only screen and (max-width: 768px){
+    body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    color: #ccc;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+    background-attachment: fixed;
+}
     .image{
         position: absolute;
         top: 50%;
