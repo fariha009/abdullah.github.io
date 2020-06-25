@@ -553,7 +553,7 @@ transform: translate(-60%,-50%);
     font-family: 'Raleway', sans-serif;
     line-height: 1.4;
     color: #ccc;
-    background: url(bg.jpg) no-repeat center;
+    background: #333;
     background-size: cover;
     height: 100vh;
     overflow-x: hidden;
