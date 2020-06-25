@@ -63,7 +63,7 @@ body{
 	min-height: 100vh;
 	justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    
 }
 
 .text-middle{
@@ -93,7 +93,7 @@ transform: translate(-60%,-50%);
 .about-me{
     height: 100vh;
     width: 100%;
-    border-bottom: 1px solid #ccc;
+    
     margin-top: 120px;
    
 }
@@ -256,7 +256,7 @@ transform: translate(-60%,-50%);
 
 .experience{
     margin-top: 100px;
-    border-top: 1px solid #ccc;
+
     height: 100vh;
     width: 100%;
     position: relative;
@@ -553,9 +553,9 @@ transform: translate(-60%,-50%);
     font-family: 'Raleway', sans-serif;
     line-height: 1.4;
     color: #ccc;
-    background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     height: 100vh;
     overflow-x: hidden;
@@ -623,9 +623,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
         }
         .social-media{
             position: absolute;
-            top: 400px;
+            top: 370px;
             right: 30%;
-            
+            margin-bottom:80px;
         
         }
 
