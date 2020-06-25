@@ -584,7 +584,9 @@ transform: translate(-60%,-50%);
         .navbar-brand{
             font-size: 14px;
         }
-        
+        .about-me{
+         border-bottom:none;
+         }
         .about-img img{
             height: 200px;
             border-radius: 2px;
@@ -676,6 +678,7 @@ transform: translate(-60%,-50%);
 }
 .experience{
   margin-top: 200px;
+border-top:none;
 }
 .jobs::before{
    display: none;
