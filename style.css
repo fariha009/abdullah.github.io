@@ -51,8 +51,9 @@ body{
 
    .txt-type{
     font-weight: normal;
-    color:   #52a7c1;
+    color:   #ccc;
     width: 100%;
+opacity : 0.9;
 }
 .text-primary{
     color:#52a7c1 !important ;
