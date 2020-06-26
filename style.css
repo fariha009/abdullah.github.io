@@ -68,9 +68,9 @@ body{
 
 .text-middle{
 position: absolute;
-top: 60%;
-left: 50%;
-transform: translate(-60%,-50%);
+top: 75%;
+left: 60%;
+transform: translate(-80%,-56%);
 }
 
 .image{
