@@ -618,22 +618,24 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         }
         .content{
             
+            left: 25%;
             position: absolute;
             top: 40%;
         }
         .content h1{
-          margin:20px auto;
+          margin:30px auto;
         
         }
         .content p{
             position: absolute;
-            left: 5%;
+            left: -20%;
+            font-size: large;
         }
         .social-media{
             position: absolute;
-            top: 370px;
-            right: 30%;
-            margin-bottom:80px;
+            top: 310%;
+            right: 40%;
+            margin-bottom:20px;
         
         }
 
@@ -642,7 +644,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
             height: 50px;
             position: absolute;
             left: 40%;
-            top: -40%;
+            top: -45%;
             margin-bottom: 70px;
 
             
