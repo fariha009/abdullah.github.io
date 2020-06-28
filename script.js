@@ -10,7 +10,7 @@ function topFunction(){
 const textSpan = document.querySelector(".txt-type");
 
 
-const textArray=["WELCOME TO MY WEBSITE" ,"I AM TECHNICAL &" , "ELECTRICAL ENGINEER" ];
+const textArray=["FOUNDER OF" ,"DOER TECHNOLOGIES" , "PTY LTD" ];
 const typingDelay=130;
 const erasingDelay=100;
 const nextTextDelay=1500;

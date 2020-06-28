@@ -82,6 +82,25 @@ transform: translate(-80%,-56%);
 
     height: 250px;
 }
+.txt-type::after{
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 40px;
+  border-right: 2px solid #ccc;
+  right:-.5px;
+  animation: blink .5s infinite ease;
+}
+
+@keyframes blink{
+  0%{
+    opacity: 0;
+  }
+100%{
+  opacity: 1;
+}
+  
+}
 
 
 
@@ -621,6 +640,10 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
         }
         .text-type{
           width: 100%;
+          font-size:medium;
+        }
+        .txt-type::after{
+          height: 20px;
         }
         .navbar-brand{
             font-size: 14px;
