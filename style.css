@@ -590,6 +590,17 @@ transform: translate(-80%,-56%);
 
 
 @media only screen and (max-width: 768px){
+    body{
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.4;
+    color: #ccc;
+   background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    height: 100vh;
+    overflow-x: hidden;
+    width: 100%;
+    background-attachment: fixed;
+}{
     .image{
         position: absolute;
         top: 50%;
