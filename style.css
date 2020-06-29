@@ -90,6 +90,7 @@ transform: translate(-80%,-56%);
   border-right: 2px solid #ccc;
   right:-.5px;
   animation: blink .5s infinite ease;
+font-size:23px;
 }
 
 @keyframes blink{
